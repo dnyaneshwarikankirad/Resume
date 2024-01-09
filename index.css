@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    height: 106px;
+    width: 100%;
+    background: #BF7E56;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  #box1 {
+    margin-left: 40px;
+  }
+  #box2,
+  #box3 {
+    width: 300px;
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+  }
+  #box2 p {
+    margin: 20px;
+  }
+  
+  #box2 p a {
+    text-decoration: none;
+    color: white;
+  }
+  section {
+    background: url(https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -10px;
+  }
+  .textbg {
+    padding-top: 10px;
+    font-size: 50px;
+    color: black;
+    background: -webkit-image-set(
+      "https://i.pinimg.com/originals/06/1a/62/061a6236a34578b770f8c6c7711ba21b.gif"
+    );
+    background-position-y: 140px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #btn1 {
+    background: transparent;
+    padding: 10px;
+    border: 1px solid red;
+    padding-top: 10px;
+    font-size: 30px;
+    color: black;
+    background: -webkit-image-set(
+      "https://i.pinimg.com/originals/06/1a/62/061a6236a34578b770f8c6c7711ba21b.gif"
+    );
+    background-position: center;
+    background-position-y: -100px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @media screen and (max-width: 800px) {
+    header {
+      text-align: center;
+    }
+  }
+  
+  main {
+    height: 400px;
+    width: 100%;
+     margin: 10px; 
+    background: #E3C3A8;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #par1,
+  #par2,
+  #par3 {
+    width: 30%;
+    text-align: center;
+  }
+  #par1 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  #par2 {
+    text-align: justify;
+    
+  }
+  #par3 .btn2 {
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    border: solid #ffff;
+    background-color: rgb(241, 215, 215);
+    box-shadow: 2px 2px 2px #000;
+  }
+  #part1 {
+    height: 200px;
+    width: 100%;
+    background:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #part2 {
+    height:auto;
+    width: 100%;
+    background-color: #3D3D3D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .boxx1 {
+    height: 70px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background: gray;
+}
+
+    
+  
+  .bt1,
+  .bt2,
+  .bt3,
+  .bt4 {
+    background: rgb(203, 199, 199);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .boxx2 {
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+  }
+  .bt5,
+  .bt6,
+  .bt7,
+  .bt8 {
+    background: rgb(203, 199, 199);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 100px;
+  }
+  
+  .boxx3{
+    font-size: 17px;
+font-weight: 100;
+    
+
+  }
+
+  .bt9,.bt10{
+      background: rgb(203, 199, 199);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    margin-top:12px ;
+  }
+  footer{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    gap:30px;
+}
+.section1,.section2{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .section3{
+    text-decoration: none;
+    color: white;
+     }
+     
+  .section3 a,i{
+      color: #5353e3;
+      padding: 8px;
+      
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
